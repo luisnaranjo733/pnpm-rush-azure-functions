@@ -73,3 +73,5 @@ common/autoinstallers/*/.npmrc
 .heft
 
 dist
+
+apps/functions/local.settings.json
