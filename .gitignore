@@ -1,16 +1,10 @@
 # Logs
-logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
-
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
-pids
 *.pid
 *.seed
 *.pid.lock
@@ -24,7 +18,7 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -39,9 +33,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-
-# TypeScript v1 declaration files
-typings/
 
 # Optional npm cache directory
 .npm
@@ -60,40 +51,25 @@ typings/
 
 # dotenv environment variables file
 .env
-.env.test
-
-# parcel-bundler cache (https://parceljs.org/)
-.cache
 
 # next.js build output
 .next
 
-# nuxt.js build output
-.nuxt
+# OS X temporary files
+.DS_Store
 
-# vuepress build output
-.vuepress/dist
+# IntelliJ IDEA project files; if you want to commit IntelliJ settings, this recipe may be helpful:
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+.idea/
+*.iml
 
-# Serverless directories
-.serverless/
+# Rush temporary files
+common/deploy/
+common/temp/
+common/autoinstallers/*/.npmrc
+**/.rush/temp/
 
-# FuseBox cache
-.fusebox/
+# Heft temporary files
+.heft
 
-# DynamoDB Local files
-.dynamodb/
-
-# TypeScript output
 dist
-out
-
-# Azure Functions artifacts
-bin
-obj
-appsettings.json
-local.settings.json
-
-# Azurite artifacts
-__blobstorage__
-__queuestorage__
-__azurite_db*__.json
